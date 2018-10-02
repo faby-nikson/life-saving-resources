@@ -75,5 +75,13 @@ utiliser un store d'appli à la place (Vuex)
 Exercice : https://github.com/mathieutu/formation-vuejs-dolphi
 
 
+Tools
+------
+
+### Vuepress
+
+To make documentation:
+https://vuepress.vuejs.org/config/#ga
+
 :house: [Back to home](../../README.md)
     

@@ -44,6 +44,12 @@ Mapping:
 xev
 ```
 
+#### Applications on start-up (auto-start)
+
+Run the command (Alt+F2):
+```
+gnome-session-properties
+```
 
 ### Partitions
 

@@ -28,3 +28,7 @@ then
     dir="`pwd`"
 fi
 ```
+
+
+Siege manual:
+https://www.joedog.org/siege-manual/

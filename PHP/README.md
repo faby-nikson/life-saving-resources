@@ -4,8 +4,16 @@ PHP
 Tool tips
 ------
 
-### Change php alias to handle different php versions
+## Good practise
+
+In top of file:
+```php
+<?php declare(strict_types=1);
 ```
+
+### Change php alias to handle different php versions
+
+```bash
 sudo update-alternatives --set php /usr/bin/php7.1
 sudo update-alternatives --set php /usr/bin/php7.2
 ```
@@ -15,6 +23,11 @@ sudo update-alternatives --set php /usr/bin/php7.2
 * Phpstan : type review
 * Cs-fixer : code style
 * PHPQa: https://github.com/EdgedesignCZ/phpqa
+
+### Code debug
+
+* [Xdebug](Xdebug.md)
+* PHPUnit
 
 ### Tests
 
@@ -29,4 +42,4 @@ https://matthiasnoback.nl/2018/03/ormless-a-memento-like-pattern-for-object-pers
 
 
 
-:house: [Back to home](README.md)
+:house: [Back to home](../../)

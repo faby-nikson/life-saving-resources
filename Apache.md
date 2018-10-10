@@ -1,21 +1,10 @@
-Title
+Apache
 ======
 
 .htaccess
 ------
 
 ```apache
-
-# @file @TODOACTI : htaccess file
-# Ressources
-#
-# Article sur le htaccess :
-#  => http://intranet.acti/acti_si/intranet/blog_ti/?p=319
-# Article sur les expressions régulières :
-#  => http://intranet.acti/acti_si/intranet/blog_ti/?p=325
-#
-# Ce fichier sert à présenter les exemples récurrents de l'utilisation du htaccess
-# Pour avoir des exemples d'instructions plus poussées, il faut se référer à l'article sur le blog TI.
 
 <IfModule mod_rewrite.c>
 
@@ -49,7 +38,6 @@ Title
     # _____ Advanced redirection _____
     #####################################
 
-    # http://intranet.acti/acti_si/intranet/blog_ti/?p=319
 
     #####################################
     # _____ Simple authentication _____
@@ -65,7 +53,6 @@ Title
     # _____ Advanced authentication _____
     #####################################
 
-    # http://intranet.acti/acti_si/intranet/blog_ti/?p=1791
 
     #####################################
     # _____ Simple maintenance page _____
@@ -107,7 +94,6 @@ Title
     # _____ Advanced maintenance/waiting page _____
     #####################################
 
-    # http://intranet.acti/acti_si/intranet/blog_ti/?p=1797
 
 </IfModule>
 ```
@@ -120,4 +106,4 @@ login:pass
 
 
 
-:house: [Back to home](README.md)
+:house: [Back to home](../../)

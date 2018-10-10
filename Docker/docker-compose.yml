@@ -1,0 +1,41 @@
+version: '2'
+
+services:
+    # Application
+    application:
+        image: c2is/application
+        volumes:
+            - ./:/var/www/drupal
+        tty: true
+
+    # Apache
+    apache:
+        build: docker/containers/apache
+        environment:
+            - WEBSITE_HOST=sepr.dev.acti
+        ports:
+            - "80:80"
+            - "443:443"
+        links:
+            - php:php
+        volumes_from:
+            - application
+        volumes:
+            - ./docker/logs/apache/:/var/log/apache2
+
+    # PHP
+    php:
+        build: docker/containers/php-fpm
+        ports:
+            - "9000:9000"
+        environment:
+            - GIT_USERNAME=XXXX
+            - GIT_EMAIL=XXXX@acti.fr
+            - SMTP_HOST=mail.eolas.fr
+            - SMTP_USER=XXXX@acti.fr
+            - SMTP_PASSWORD=XXXX
+        volumes_from:
+            - application
+        volumes:
+            - ~/.ssh:/root/.ssh
+        working_dir: /var/www/drupal

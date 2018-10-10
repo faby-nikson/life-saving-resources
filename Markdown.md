@@ -1,22 +1,18 @@
-Title
+Mardown
 ======
 
-Title2
+Template
 ------
 
-### Title3
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Add-ons
+------
+
+### Doctoc
+
+Automatic summaries
+https://github.com/thlorenz/doctoc
 
 
-Code sample
-```json
-{
-   "type": "vcs",
-   "url":  "git@github.com:M6Web/StatsdTagsPrometheusBundle.git"
-}
-```
-
-Links
-[Usage](Doc/usage.md)
-
-
-:house: [Back to home](../../README.md)
+:house: [Back to home](../../)

@@ -9,7 +9,8 @@ Nothing yet.
 UDP
 ------
 
-### Listen to UDP requests
+### Listen to UDP requests
+
 ```
 nc -klu -p 9125
 ```
@@ -20,11 +21,12 @@ Options:
 * p: specific port to listen
 * u: force to use UDP (TCP by default)
 
-### Send UDP requests
+### Send UDP requests
+
 ```
-echo 'pmn_second_counter:1|c|1|#code:200,app:test' | nc -w 1 -u pp-statsd-exporter-prometheus-01.m6web.fr 9125
+echo 'pmn_second_counter:1|c|1|#code:200,app:test' | nc -w 1 -u my-server.test.fr 9125
 ```
 
 
 
-:house: [Back to home](README.md)
+:house: [Back to home](../../)

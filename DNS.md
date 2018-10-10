@@ -27,7 +27,7 @@ Restart:
 sudo service dnsmasq restart
 ```
 
-### Use the local DNS server
+### Use the local DNS server
 
 Edit the file:
 ```
@@ -45,4 +45,4 @@ sudo dhclient
 ```
 
 
-:house: [Back to home](README.md)
+:house: [Back to home](../../)

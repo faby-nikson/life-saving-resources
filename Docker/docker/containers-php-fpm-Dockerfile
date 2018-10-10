@@ -1,0 +1,62 @@
+FROM debian:stretch
+
+RUN mkdir /entrypoint-initdb.d
+
+RUN apt-get update && apt-get install -y git zip mysql-client php7.0-common php7.0-cli php7.0-fpm php7.0-mcrypt php7.0-mysql php7.0-apcu php7.0-gd php7.0-imagick php7.0-curl php7.0-intl php7.0-pgsql php7.0-mbstring php-pear php7.0-dev php7.0-xdebug
+
+RUN rm /etc/php/7.0/fpm/pool.d/*
+
+ADD symfony.ini /etc/php/7.0/fpm/conf.d/
+ADD symfony.ini /etc/php/7.0/cli/conf.d/
+ADD symfony.pool.conf /etc/php/7.0/fpm/pool.d/
+
+RUN usermod -u 1000 www-data
+
+# Install composer
+RUN curl -s https://getcomposer.org/installer | php
+RUN mv composer.phar /usr/local/bin/composer
+RUN mkdir /var/composer
+RUN composer require symfony/var-dumper --working-dir=/var/composer
+RUN chown -R www-data:www-data /var/composer
+RUN echo "auto_prepend_file = /var/composer/vendor/autoload.php" >> /etc/php/7.0/fpm/php.ini
+RUN echo "auto_prepend_file = /var/composer/vendor/autoload.php" >> /etc/php/7.0/cli/php.ini
+
+ADD build.sh /opt/docker/
+RUN chmod +x /opt/docker/build.sh && sh /opt/docker/build.sh
+
+
+VOLUME /var/www/.ssh
+
+RUN service php7.0-fpm start
+
+EXPOSE 9000
+
+# Entrypoint
+COPY entrypoint.sh /usr/local/bin/
+RUN ln -s /usr/local/bin/entrypoint.sh /entrypoint.sh && chmod +x /entrypoint.sh
+ENTRYPOINT ["entrypoint.sh"]
+
+CMD ["php-fpm7.0", "-F"]
+
+# Conf
+ADD drupal.ini /etc/php5/fpm/conf.d/
+
+# SMTP
+RUN apt-get update
+RUN apt-get install -y ssmtp
+RUN apt-get install -y mysql-client
+
+# Install Drush
+RUN git clone https://github.com/drush-ops/drush.git /usr/local/src/drush
+RUN cd /usr/local/src/drush && \
+    git checkout 7.x && \
+    ln -s /usr/local/src/drush/drush /usr/bin/drush && \
+    composer install
+
+# Entry point
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod 777 /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+
+# Relaunch PHP
+CMD ["php5-fpm", "-F"]

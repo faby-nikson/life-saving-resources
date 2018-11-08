@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Git](#git)
+  - [Configuration](#configuration)
+  - [Useful commands](#useful-commands)
+  - [To check (turning obsolete)](#to-check-turning-obsolete)
+    - [Repository](#repository)
+    - [Files state](#files-state)
+    - [Stage files](#stage-files)
+    - [Commit](#commit)
+    - [Share your commits](#share-your-commits)
+    - [Crud des remotes](#crud-des-remotes)
+    - [Update your local repositotry](#update-your-local-repositotry)
+    - [Branching](#branching)
+    - [Stash](#stash)
+  - [Rewrite history](#rewrite-history)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Git
 ======
 

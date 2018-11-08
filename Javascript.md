@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Javascript](#javascript)
+  - [ES6 tips](#es6-tips)
+    - [String existence to boolean](#string-existence-to-boolean)
+    - [Class](#class)
+    - [Arrow function / Fat arrow](#arrow-function--fat-arrow)
+    - [Destructuring](#destructuring)
+  - [Dates](#dates)
+  - [Flow](#flow)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Javascript
 ======
 

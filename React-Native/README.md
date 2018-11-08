@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [React Native](#react-native)
+  - [With Expo](#with-expo)
+  - [Install](#install)
+    - [Create an app](#create-an-app)
+    - [Environement: react-navigation, native-base, etc.](#environement-react-navigation-native-base-etc)
+  - [Without Expo](#without-expo)
+  - [Components](#components)
+  - [Ajout d'une librairie mixte](#ajout-dune-librairie-mixte)
+  - [Story book](#story-book)
+  - [Misc](#misc)
+    - [Put view elements in a variable](#put-view-elements-in-a-variable)
+    - [setState is ayschnronous](#setstate-is-ayschnronous)
+    - [KeyboardAvoidingView](#keyboardavoidingview)
+  - [Stores](#stores)
+    - [Redux](#redux)
+    - [Mobx](#mobx)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 React Native
 ======
 

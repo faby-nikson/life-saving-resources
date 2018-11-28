@@ -4,7 +4,6 @@
 
 - [Misc](#misc)
   - [Partitions](#partitions)
-  - [Customization](#customization)
 - [Logs](#logs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -24,11 +23,6 @@ Partitions size:
 Partitions list:
 
 `vi /etc/fstab`
-
-### Customization
-
-* Thème : Arc-Darker
-* Icones : Flat-remix
 
 
 Logs

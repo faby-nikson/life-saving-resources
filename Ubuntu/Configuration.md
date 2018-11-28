@@ -3,7 +3,10 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Configuration](#configuration)
-  - [Gesture / Touchpad](#gesture--touchpad)
+  - [Customization](#customization)
+  - [Mouse / Gesture / Touchpad](#mouse--gesture--touchpad)
+    - [Set the mouse focus](#set-the-mouse-focus)
+    - [Enable extended gesture](#enable-extended-gesture)
       - [Keyboard](#keyboard)
       - [Applications on start-up (auto-start)](#applications-on-start-up-auto-start)
       - [Mouse focus](#mouse-focus)
@@ -13,9 +16,22 @@
 Configuration
 ======
 
-## Gesture / Touchpad
 
-https://github.com/bulletmark/libinput-gestures
+## Customization
+
+* Thème : Arc-Darker
+* Icones : Flat-remix
+
+## Mouse / Gesture / Touchpad
+
+### Set the mouse focus
+
+https://askubuntu.com/questions/978401/how-do-i-set-focus-follows-mouse-in-ubuntu-17-10
+
+### Enable extended gesture
+
+https://github.com/mpiannucci/gnome-shell-extended-gestures
+
 
 #### Keyboard
 

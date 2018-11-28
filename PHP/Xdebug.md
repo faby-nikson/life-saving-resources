@@ -12,5 +12,10 @@ Xdebug
 https://blog.eleven-labs.com/fr/debugger-avec-xdebug/
 
 
+### Enable remote
+
+```bash
+XDEBUG_CONFIG="remote_enable=1" my-command.sh
+```
 
 :house: [Back to home](../../)

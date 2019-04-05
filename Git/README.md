@@ -235,6 +235,18 @@ git branch -dr <remote/branch>
 git push <remote_name> --delete <branch_name>
 ```
 
+Check merged branches
+```
+git branch --merged
+To delete all local branches that are already merged into the currently checked out branch:
+
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+```
+
+Delete local merged branches (exclude dev and master)
+```
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+```
 
 ### Stash
 

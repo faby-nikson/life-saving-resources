@@ -116,6 +116,17 @@ git log
 git log --oneline --decorate --graph --all
 ```
 
+### Clean your repository
+
+List the ignored files to remove
+```
+git clean -X -n
+```
+Remove the git ignored files
+```
+git clean -X -f
+```
+
 @TODO
 
 Pour voir où en était votre projet à un commit particulier 

@@ -16,8 +16,9 @@ Install a script
 ------
 
 ``` 
-ln -s my-file.sh ~/bin/my-file.sh
-chmod +x ~/bin/my-file.sh 
+cd ~/bin
+ln -s /path-to-the-git-project/my-file.sh my-file.sh
+chmod +x my-file.sh 
 ```
 
 Make your bash script

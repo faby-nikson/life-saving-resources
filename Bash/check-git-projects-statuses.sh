@@ -6,8 +6,8 @@
 # ----------
 
 # Define here the directories you want to check.
-dir1="/home/f-dumas/Documents/*"
-dir2="/home/f-dumas/wwwroot/*"
+dir1="/home/my-user/www/*"
+dir2="/var/www/*"
 dirs=($dir1 $dir2)
 
 # Loop on folders

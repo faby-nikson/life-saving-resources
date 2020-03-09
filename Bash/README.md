@@ -12,6 +12,14 @@
 Bash / Shell
 ======
 
+Install a script
+------
+
+``` 
+ln -s my-file.sh ~/bin/my-file.sh
+chmod +x ~/bin/my-file.sh 
+```
+
 Make your bash script
 ------
 

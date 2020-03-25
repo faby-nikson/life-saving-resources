@@ -10,7 +10,7 @@ Here is the description of the shortcuts:
 
 | Template | Result |
 | -------- | ------ | 
-| **code** | Paste the clipboard and surrounds it with \`\`\`$CLIPBOARD$\`\`\` |
+| **code** | Paste the clipboard and surrounds it with grave accent ` ```$CLIPBOARD``` ` |
 
 ### PHP Templates
 

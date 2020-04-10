@@ -9,20 +9,34 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Bash / Shell
-======
+# Bash / Shell
 
-Install a script
-------
+## How to execute scripts
 
-``` 
+First of all, you need to add the right to be executed on your machine:
+```
+chmod +x the-script.sh
+```
+
+You could want to create aliases in your `.bashrc` file:
+```
+alias="/the-path-to-the-repo/the-script.sh -with option"
+```
+
+Or add a symlink in your `bin` folder:
+
+```
 cd ~/bin
-ln -s /path-to-the-git-project/my-file.sh my-file.sh
+ln -s /the-path-to-the-repo/the-script.sh my-file.sh
 chmod +x my-file.sh 
 ```
 
-Make your bash script
-------
+## Make your own bash script
+
+Check those external documentations to go further:
+- [Siege manual](https://www.joedog.org/siege-manual/)
+- [https://www.tutorialspoint.com/unix/unix-basic-operators.htm](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
+
 
 ### Structure
 
@@ -48,7 +62,3 @@ then
     dir="`pwd`"
 fi
 ```
-
-
-Siege manual:
-https://www.joedog.org/siege-manual/

@@ -62,3 +62,8 @@ then
     dir="`pwd`"
 fi
 ```
+
+## Useful shell script
+
+Have a look at a personal list of  
+ [Useful unix shell scripts](https://github.com/f-dumas/shell-scripts) and help yourself!

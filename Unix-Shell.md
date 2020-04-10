@@ -1,14 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Bash / Shell](#bash--shell)
-  - [Make your bash script](#make-your-bash-script)
-    - [Structure](#structure)
-    - [Tips](#tips)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Bash / Shell
 
 ## How to execute scripts
@@ -34,7 +23,6 @@ chmod +x my-file.sh
 ## Make your own bash script
 
 Check those external documentations to go further:
-- [Siege manual](https://www.joedog.org/siege-manual/)
 - [https://www.tutorialspoint.com/unix/unix-basic-operators.htm](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
 
 

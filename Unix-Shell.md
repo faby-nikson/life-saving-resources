@@ -24,6 +24,7 @@ chmod +x my-file.sh
 
 Check those external documentations to go further:
 - [https://www.tutorialspoint.com/unix/unix-basic-operators.htm](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
+- [https://unixutils.com/string-manipulation-with-bash/](https://unixutils.com/string-manipulation-with-bash/)
 
 
 ### Structure

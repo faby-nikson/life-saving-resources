@@ -1,17 +1,15 @@
+# Composer
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
 
 - [Add a specific repo](#add-a-specific-repo)
 - [Load a dev version](#load-a-dev-version)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Composer
-====== 
- 
-Add a specific repo 
-------
+## Add a specific repo 
 
 ```json
 {
@@ -24,11 +22,6 @@ Add a specific repo
 },
 ```
 
-Load a dev version
-------
+## Load a dev version
 
 `composer require 6web/statsd-prometheus-bundle:"dev-feature/init-bundle"`
-
-
-
-:house: [Back to home](../../)

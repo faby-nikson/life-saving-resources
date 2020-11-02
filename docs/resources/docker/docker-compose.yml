@@ -10,7 +10,7 @@ services:
 
     # Apache
     apache:
-        build: docker/containers/apache
+        build: ../resources/docker/containers/apache
         environment:
             - WEBSITE_HOST=sepr.dev.acti
         ports:
@@ -25,7 +25,7 @@ services:
 
     # PHP
     php:
-        build: docker/containers/php-fpm
+        build: ../resources/docker/containers/php-fpm
         ports:
             - "9000:9000"
         environment:

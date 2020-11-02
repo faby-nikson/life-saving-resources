@@ -1,4 +1,19 @@
-# Bash / Shell
+# Unix Shell
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [How to execute scripts](#how-to-execute-scripts)
+- [Make your own bash script](#make-your-own-bash-script)
+  - [Structure](#structure)
+  - [Tips](#tips)
+- [Useful shell script](#useful-shell-script)
+- [Example scripts](#example-scripts)
+  - [Stand alone script](#stand-alone-script)
+  - [Installer script](#installer-script)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How to execute scripts
 

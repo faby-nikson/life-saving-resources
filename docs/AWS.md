@@ -1,21 +1,26 @@
+# AWS 
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Xdebug](#xdebug)
+- [S3](#s3)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Xdebug
-======
+## S3
 
-https://blog.eleven-labs.com/fr/debugger-avec-xdebug/
+List repositories
 
-
-### Enable remote
-
-```bash
-XDEBUG_CONFIG="remote_enable=1" my-command.sh
+```
+// Current folder
+aws s3 ls s3://repository/path
+// With all subdirectories
+aws s3 ls s3://repository/path --recursive
 ```
 
-:house: [Back to home](../../)
+PutObject to S3
+
+```
+aws s3 cp my-file.file s3://my-destination/
+```

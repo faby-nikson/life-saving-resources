@@ -1,25 +1,21 @@
+# Docker
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Docker](#docker)
-  - [Install](#install)
-  - [Docker Compose](#docker-compose)
+
+- [Install](#install)
+- [Commands](#commands)
+- [Docker Compose](#docker-compose)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Docker
-======
-
-
-Install
-------
+## Install
 
 First of all, you need to [install docker](https://www.docker.com/products/docker-engine)
  and [docker-compose](https://docs.docker.com/compose/) on your computer.
  
-Commands
------- 
+## Commands
 
 Run an image:
 ```
@@ -48,8 +44,7 @@ docker exec -i -t [container_name] /bin/bash
 ``` 
 
 
-Docker Compose
-------
+## Docker Compose
 
 Build
 ```
@@ -71,4 +66,4 @@ Retrouver ip de docker
 docker-machine ip
 ``` 
 
-:house: [Back to home](../../)
+Resources examples: [Resources examples](./resources/docker/) 

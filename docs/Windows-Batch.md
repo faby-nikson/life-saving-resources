@@ -1,3 +1,21 @@
+# Windows Batch
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Script resources](#script-resources)
+- [Scripts examples](#scripts-examples)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Script resources
+
+Check [Here](resources/Windows-Batch)
+
+## Scripts examples
+
+```
 REM SCRIPT DE LANCEMENT DES LOGICIELS
 @echo off
 
@@ -76,3 +94,4 @@ goto end
 REM FIN DE L'EXECUTION : FERMETURE
 :end
 close
+```

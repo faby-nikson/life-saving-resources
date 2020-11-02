@@ -1,8 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [PhpStorm](#phpstorm)
+  - [Live Templates](#live-templates)
+    - [General templates](#general-templates)
+    - [PHP Templates](#php-templates)
+    - [PHP Templates: Symfony](#php-templates-symfony)
+    - [Javascript templates](#javascript-templates)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # PhpStorm
 
 ## Live Templates
 
-You can download the settings here: [PhpStorm-live-templates-settings.zip](PhpStorm-live-templates-settings.zip)
+You can download the settings here: [PhpStorm-live-templates-settings.zip](resources/PhpStorm-live-templates-settings.zip)
 
 Here is the description of the shortcuts:
 

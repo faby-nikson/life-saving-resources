@@ -1,5 +1,5 @@
 
-# Personal Documentation ans Tips
+# Personal Documentation and Tips
 
 
 This repository purpose is to centralise useful tooltips about my daily routine.

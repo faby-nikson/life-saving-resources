@@ -38,3 +38,8 @@ Useful websites links to make my life easier.
 
 - https://kaamelott-soundboard.2ec0b4.fr/#son/cest_de_la_merde: Kaamelott soundboard
 - https://www.buzzfeed.com/fr/daves4/50-photos-de-banques-dimages-inutilisables-absurdes: 50 WTF images
+
+## Music
+
+- https://equipboard.com: Musicians and their gear
+https://app.landr.com/: Online Music Mastering

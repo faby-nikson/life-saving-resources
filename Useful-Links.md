@@ -1,3 +1,4 @@
+
 # Useful Links
 
 Useful websites links to make my life easier.
@@ -6,7 +7,11 @@ Useful websites links to make my life easier.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Best links in the world](#best-links-in-the-world)
+- [Cooking](#cooking)
+- [Ecology](#ecology)
+- [Fun](#fun)
+  - [Life-saving GIF](#life-saving-gif)
+  - [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -15,10 +20,11 @@ Useful websites links to make my life easier.
 
 - https://www.sunny-delices.fr: Gluten-free recipes
 
-## Live in a better world
+## Ecology
 
 - https://moralscore.org: Give reports and moral scores about the biggest companies
-- https://www.consignesdetri.fr: Help us to sort our wastes
+- https://consignesdetri.fr: Help us to sort our wastes
+- https://murfy.fr Fix device at home
 
 ## Fun
 

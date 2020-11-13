@@ -1,4 +1,4 @@
-# Music Mixing tips
+# Music projects guidelines
 
 ## Start a new record
 

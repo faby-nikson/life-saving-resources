@@ -42,4 +42,4 @@ Useful websites links to make my life easier.
 ## Music
 
 - https://equipboard.com: Musicians and their gear
-https://app.landr.com/: Online Music Mastering
+- https://app.landr.com/: Online Music Mastering

@@ -4,7 +4,7 @@ alias show-aliases="cat $0"
 alias ws="cd ~/Workspace/ && l"
 
 #------------- Projects ---------------
-alias pdo="cd ~/Workspace/fdumas-docs-and-tips"
+alias pdo="cd ~/Workspace/docs-and-tips"
 
 #------------- Tools ---------------
 alias git-checker="~/Workspace/git-project-checker-tool/git-checker ~/Workspace/"

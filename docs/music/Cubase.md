@@ -2,6 +2,17 @@
 
 Steinberg Cubase tips.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Useful shortcuts (for Windows)](#useful-shortcuts-for-windows)
+  - [Windows](#windows)
+  - [Quick edit](#quick-edit)
+  - [Move / Transport](#move--transport)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Useful shortcuts (for Windows)
 
 ### Windows

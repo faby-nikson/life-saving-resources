@@ -4,7 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Script resources](#script-resources)
+- [Script examples](#script-examples)
 - [Scripts examples](#scripts-examples)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

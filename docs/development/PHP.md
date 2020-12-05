@@ -11,6 +11,7 @@
     - [Tests](#tests)
   - [Patterns](#patterns)
 - [ORM-less](#orm-less)
+    - [Use a specific version of PHP with PECL](#use-a-specific-version-of-php-with-pecl)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

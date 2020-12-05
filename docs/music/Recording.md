@@ -1,5 +1,16 @@
 # Recording tips
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Create the project](#create-the-project)
+- [Record](#record)
+- [Tips](#tips)
+- [Track quality](#track-quality)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Create the project
 
 - Create a folder: `MixV{version}` -> `MixV1`

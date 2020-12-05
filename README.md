@@ -4,6 +4,19 @@ This repository purpose is to centralise useful tooltips about my daily routine.
 
 This is for personal use, but if you find something interesting, just help yourself :)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [On this repository](#on-this-repository)
+- [External links](#external-links)
+  - [Cooking](#cooking)
+  - [Ecology](#ecology)
+  - [Fun](#fun)
+  - [Music](#music)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## On this repository
 
 - [Development](docs/development) (Especially linked to Web development, but not exclusively)

@@ -1,5 +1,16 @@
 # Mixing tips
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Handle the equalizer](#handle-the-equalizer)
+- [Add compressors](#add-compressors)
+- [Play with volumes et paner](#play-with-volumes-et-paner)
+- [Add effects](#add-effects)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Handle the equalizer
 
 - Check the presets

@@ -2,20 +2,10 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Xdebug](#xdebug)
+- [Development tips and docs](#development-tips-and-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Xdebug
-======
+# Development tips and docs
 
-https://blog.eleven-labs.com/fr/debugger-avec-xdebug/
-
-
-### Enable remote
-
-```bash
-XDEBUG_CONFIG="remote_enable=1" my-command.sh
-```
-
-:house: [Back to home](../../)
+-

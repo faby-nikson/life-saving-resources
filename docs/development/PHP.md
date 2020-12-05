@@ -11,6 +11,7 @@
     - [Tests](#tests)
   - [Patterns](#patterns)
 - [ORM-less](#orm-less)
+    - [Use a specific version of PHP with PECL](#use-a-specific-version-of-php-with-pecl)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -57,5 +58,11 @@ Patterns
 https://matthiasnoback.nl/2018/03/ormless-a-memento-like-pattern-for-object-persistence/
 
 
+
+### Use a specific version of PHP with PECL
+
+```
+pecl -d php_suffix=7.1 install <package>
+``` 
 
 :house: [Back to home](../../)

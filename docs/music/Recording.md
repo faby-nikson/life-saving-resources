@@ -7,22 +7,25 @@
 
 ## Record
 
-- Check the input sound
+- Check the input sound in the Sound card
 	+ Input signal must be between -18dbs and -12dbs at top
 - Record every part several times (at least 2, or 3)
 	+ It will be easier to correct the small details
-- Optional: you can record a part twice, in 2 different tracks
+
+## Tips
+
+- You can record a part twice, in 2 different tracks
 	+ it can provide a louder and better global sound
 
 ## Track quality
 
-Once everything is properly recorded:
+Once everything is recorded:
 - Remove unused media and clean the bin
 - Cut the empty tracks and handle silences
-- Handle fade in/fade out between two tracks
+- Handle fade in/fade out between two tracks (with `x` key in Cubase)
 - Perform the gain staging job:
-	+ Mettre toutes les pistes à 0, et harmoniser les volumes avec le pre-gain
-	+ Toutes les pistes doivent avoir le même volume
+    - Put every track volume to 0 
+    - Use the `pre-gain` option to have all your tracks to the same max volume
 	+ (Optional) Tester en inversant les phases pour voir si le volume est meilleur
-	+ /!\ Le volume de sortie ne doit pas dépasser -6db
+	+ ⚠️THe output volume must not be over `-6db`
 

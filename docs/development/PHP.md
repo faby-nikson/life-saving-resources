@@ -58,4 +58,10 @@ https://matthiasnoback.nl/2018/03/ormless-a-memento-like-pattern-for-object-pers
 
 
 
+### Use a specific version of PHP with PECL
+
+```
+pecl -d php_suffix=7.1 install <package>
+``` 
+
 :house: [Back to home](../../)

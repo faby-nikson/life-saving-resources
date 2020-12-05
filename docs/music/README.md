@@ -1,5 +1,7 @@
 # Music projects guidelines
 
+## Cubase
+
 Help you with [Cubase tips](Cubase.md)
 
 ## Start a new record project

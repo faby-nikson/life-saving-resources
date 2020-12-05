@@ -5,7 +5,7 @@ REM Amazon Drive
 :task0
 tasklist | find "AmazonDrive.exe" /C /i > nul 
 if NOT ERRORLEVEL 1 goto task1
-start %SystemRoot%\explorer.exe  "C:\Users\Sonik\AppData\Local\Amazon Drive\AmazonDrive.exe
+start %SystemRoot%\explorer.exe  "C:\Users\{Username}\AppData\Local\Amazon Drive\AmazonDrive.exe
 echo "Lancement Fenetre AmazonDrive..."
 
 REM Google Drive

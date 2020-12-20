@@ -35,6 +35,7 @@ This is for personal use, but if you find something interesting, just help yours
 - https://moralscore.org: Give reports and moral scores about the biggest companies
 - https://consignesdetri.fr: Help us to sort our wastes
 - https://murfy.fr Fix device at home
+- https://www.produitsdurables.fr To check how to get long term duration products
 
 ### Fun
 

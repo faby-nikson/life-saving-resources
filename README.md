@@ -28,6 +28,7 @@ This is for personal use, but if you find something interesting, just help yours
     - https://dreamact.eu/fr/ Eco-friendly shopping
     - https://www.wedressfair.fr/ Eco-friendly clothes
     - https://www.picture-organic-clothing.com/en/ Eco-friendly clothes
+    - https://www.produitsdurables.fr To check how to get long term duration products
 
 ### Fun
 

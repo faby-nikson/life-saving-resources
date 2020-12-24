@@ -4,19 +4,6 @@ This repository purpose is to centralise useful tooltips about my daily routine.
 
 This is for personal use, but if you find something interesting, just help yourself :)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [On this repository](#on-this-repository)
-- [External links](#external-links)
-  - [Cooking](#cooking)
-  - [Ecology](#ecology)
-  - [Fun](#fun)
-  - [Music](#music)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## On this repository
 
 - [Development](docs/development) (Especially linked to Web development, but not exclusively)
@@ -30,11 +17,17 @@ This is for personal use, but if you find something interesting, just help yours
 
 - https://www.sunny-delices.fr: Gluten-free recipes
 
-### Ecology
+### Ecology & Consumption
 
-- https://moralscore.org: Give reports and moral scores about the biggest companies
-- https://consignesdetri.fr: Help us to sort our wastes
-- https://murfy.fr Fix device at home
+- Advices
+    - https://consignesdetri.fr: Help us to sort our wastes
+    - https://moralscore.org: Give reports and moral scores about the biggest companies
+- Fixing
+    - https://murfy.fr Fix device at home
+- Shopping
+    - https://dreamact.eu/fr/ Eco-friendly shopping
+    - https://www.wedressfair.fr/ Eco-friendly clothes
+    - https://www.picture-organic-clothing.com/en/ Eco-friendly clothes
 
 ### Fun
 

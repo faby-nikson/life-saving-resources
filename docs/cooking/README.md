@@ -8,6 +8,6 @@ Feel free to look for what you need there!
 
 # Deserts
 
-- [Crème Speculoos](speculoos-creme.md)
-- [Gâteau semoule](semolina-cake.md)
+- [Simple cremes](simple-cremes.md)
+- [Semolina cake](semolina-cake.md)
 

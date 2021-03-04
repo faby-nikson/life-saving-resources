@@ -6,7 +6,7 @@ This is for personal use, but if you find something interesting, just help yours
 
 ## Cooking
 
-- [My recipes selection](docs/cooking/README.md)
+- [My recipes selection](https://github.com/f-dumas/cooking-recipes)
 - [Sunny Delices](https://www.sunny-delices.fr): Gluten-free recipes
 
 ## Ethic & ecology

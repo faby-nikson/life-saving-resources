@@ -6,7 +6,6 @@ This is for personal use, but if you find something interesting, just help yours
 
 ## Cooking
 
-- [My recipes selection](https://github.com/f-dumas/cooking-recipes)
 - [Sunny Delices](https://www.sunny-delices.fr): Gluten-free recipes
 
 ## Ethic & ecology
@@ -14,6 +13,7 @@ This is for personal use, but if you find something interesting, just help yours
 > Misc / advices
 
 - [Consigne de tri](https://consignesdetri.fr): Help us to sort our wastes in France
+- [Low Tech Lab](https://lowtechlab.org/fr): Tutos and stuff to create stuff with low tech
 - [Moralscore](https://moralscore.org): Give reports and moral scores about companies
 - [Murfy](https://murfy.fr) Fix device at home
 - [Shift Your Job](https://shiftyourjob.org): To find a new job with climate caring

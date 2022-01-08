@@ -23,6 +23,7 @@ This is for personal use, but if you find something interesting, just help yours
 - [Dream Act](https://dreamact.eu/fr): Eco-friendly shopping
 - [Picture Organic Clothing](https://www.picture-organic-clothing.com): Eco-friendly clothes
 - [Produits Durable](https://www.produitsdurables.fr): To check how to get long term duration products
+- [Recyclivre](https://www.recyclivre.com/shop/): Second-hand books
 - [We dress fair](https://www.wedressfair.fr): Eco-friendly clothes
 
 ## Informatics

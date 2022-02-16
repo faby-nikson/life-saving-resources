@@ -1,9 +1,16 @@
 # Ubuntu & Debian tips
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+## Setup your ubuntu
 
-- [Ubuntu & Debian tips](#ubuntu--debian-tips)
+Check this file: https://github.com/f-dumas/setup-tool/tree/master/ubuntu
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+## Useful Shortcuts
+
+| Description | Keys |
+| -- | -- |
+Bactick | `AltGR + Maj + P`
+Clipboard indicator (display window) | `Ctrl + F9`
+Clipboard indicator (previous occurence) | `Ctrl F12`
+Emote | `Ctrl + Alt + E`
+Git shortcuts | https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index

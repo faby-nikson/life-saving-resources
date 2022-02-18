@@ -1,25 +1,37 @@
 # Ubuntu tips
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Setup your ubuntu
 
+Check this file: https://github.com/f-dumas/setup-tool/tree/master/ubuntu
 
-- [Setup the desktop](#setup-the-desktop)
-  - [Useful softwares](#useful-softwares)
-  - [Useful components and config](#useful-components-and-config)
-  - [Misc](#misc)
-- [Tips](#tips)
-  - [ACL](#acl)
-  - [Files & Folders](#files--folders)
-  - [Remove](#remove)
-  - [Archives & compression](#archives--compression)
-  - [Stop firewall](#stop-firewall)
-  - [Packages](#packages)
-  - [Search](#search)
-  - [Partitions](#partitions)
-  - [Logs](#logs)
+## Useful Shortcuts
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+### Global to Ubuntu
+
+| Description | Keys |
+| -- | -- |
+Backtick | `AltGR + Maj + P`
+Open notification toolbar | `Super + v`
+
+### Tools
+
+| Description | Keys |
+| -- | -- |
+Clipboard indicator (display window) | `Ctrl + F9`
+Clipboard indicator (previous occurence) | `Ctrl F12`
+Open Emote | `Ctrl + Alt + E`
+
+### Trackpad (with Touchegg)
+
+| Description | Keys |
+| -- | -- |
+resize/reduce / half | `3 finger Up/down/right/left`
+Show open apps | `4 fingers to the right`
+
+### Git
+
+[Git shortcuts Oh My Zsh](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
+
 
 ## ACL
 

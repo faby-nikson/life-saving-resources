@@ -4,11 +4,18 @@ This repository purpose is to centralise useful tooltips about my daily routine.
 
 This is for personal use, but if you find something interesting, just help yourself :)
 
-## Cooking & food
+## On this repository
+
+- [Development, Unix and misc](docs/) (Especially linked to Web development, but not exclusively)
+- [Tips about Windows OS](docs/windows)
+
+## Useful external links
+
+### Cooking & food
 
 - [Taste Atlas](https://www.tasteatlas.com): To check food apecialties all over the world
 
-## Ethic & ecology
+### Ethic & ecology
 
 > Misc / advices
 
@@ -26,13 +33,7 @@ This is for personal use, but if you find something interesting, just help yours
 - [Recyclivre](https://www.recyclivre.com/shop/): Second-hand books
 - [We dress fair](https://www.wedressfair.fr): Eco-friendly clothes
 
-## Informatics
-
-- [Web Development and misc](docs/development) (Especially linked to Web development, but not exclusively)
-- [Tips about Ubuntu & Debian OS](docs/ubuntu-debian)
-- [Tips about Windows OS](docs/windows)
-
-## Misc/Fun
+### Misc/Fun
 
 > Life-saving GIF
 
@@ -45,8 +46,7 @@ This is for personal use, but if you find something interesting, just help yours
 - [Kaamelott soundboard](https://kaamelott-soundboard.2ec0b4.fr/#son/cest_de_la_merde)
 - [Objections GIF maker](https://objection.lol)
 
-## Music projects
+### Music projects
 
-- [My personal notes on music projects](docs/music) (Music recording, mixing, mastering)
 - [Equipboard](https://equipboard.com): Musicians and their gear
 - [Landr](https://app.landr.com): Online Music Mastering

@@ -13,6 +13,7 @@ This is for personal use, but if you find something interesting, just help yours
 
 ### Cooking & food
 
+- [Happy Cow](https://www.happycow.net/): Find vegan and vegetarian restaurants
 - [Taste Atlas](https://www.tasteatlas.com): To check food apecialties all over the world
 
 ### Ethic & ecology

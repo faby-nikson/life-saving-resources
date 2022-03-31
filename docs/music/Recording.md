@@ -1,20 +1,9 @@
 # Recording tips
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Start a new project
 
-
-- [Create the project](#create-the-project)
-- [Record](#record)
-- [Tips](#tips)
-- [Track quality](#track-quality)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Create the project
-
-- Create a folder: `MixV{version}` -> `MixV1`
-- Create a cubase project: `{name} - MixV{version}-{tempo}bpm-00.cpr` -> `My Song - MixV1-128bpm-00.cpr`
+- Create a folder: `Mix V{version}` -> `Mix V1`
+- Create a cubase project: `{name} - v{version}-{tempo}bpm-00.cpr` -> `My Song - v1 - 128bpm-00.cpr`
 
 ## Record
 
@@ -22,9 +11,8 @@
 	+ Input signal must be between -12dbs and -6dbs at top
 - Record every part several times (at least 2, or 3)
 	+ It will be easier to correct the small details
-	+ 
-⚠️ Tester l'inversion de phase si le volume semble trop bas
 
+⚠️ Tester l'inversion de phase si le volume semble trop bas
 
 ## Tips
 

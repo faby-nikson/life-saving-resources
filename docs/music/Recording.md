@@ -22,6 +22,7 @@
 	+ Input signal must be between -12dbs and -6dbs at top
 - Record every part several times (at least 2, or 3)
 	+ It will be easier to correct the small details
+	+ 
 ⚠️ Tester l'inversion de phase si le volume semble trop bas
 
 

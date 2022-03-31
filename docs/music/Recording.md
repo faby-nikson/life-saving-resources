@@ -19,9 +19,11 @@
 ## Record
 
 - Check the input sound in the Sound card
-	+ Input signal must be between -18dbs and -12dbs at top
+	+ Input signal must be between -12dbs and -6dbs at top
 - Record every part several times (at least 2, or 3)
 	+ It will be easier to correct the small details
+⚠️ Tester l'inversion de phase si le volume semble trop bas
+
 
 ## Tips
 
@@ -38,5 +40,5 @@ Once everything is recorded:
     - Put every track volume to 0 
     - Use the `pre-gain` option to have all your tracks to the same max volume
 	+ (Optional) Tester en inversant les phases pour voir si le volume est meilleur
-	+ ⚠️THe output volume must not be over `-6db`
+	+ ⚠️The output volume must not be over `-6db`
 

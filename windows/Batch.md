@@ -11,7 +11,7 @@
 
 ## Script examples
 
-Check [Here](resources)
+Check [Here](../resources/windows-scripts-examples)
 
 ## Scripts examples
 

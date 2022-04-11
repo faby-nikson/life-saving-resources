@@ -10,9 +10,9 @@ services:
 
     # Apache
     apache:
-        build: ../resources/docker/containers/apache
+        build: ../windows-scripts-examples/docker-examples/containers/apache
         environment:
-            - WEBSITE_HOST=sepr.dev.acti
+            - WEBSITE_HOST=sepr.development.acti
         ports:
             - "80:80"
             - "443:443"
@@ -21,11 +21,11 @@ services:
         volumes_from:
             - application
         volumes:
-            - ./docker/logs/apache/:/var/log/apache2
+            - ./docker-examples/logs/apache/:/var/log/apache2
 
-    # PHP
+    # php-script-examples
     php:
-        build: ../resources/docker/containers/php-fpm
+        build: ../windows-scripts-examples/docker-examples/containers/php-fpm
         ports:
             - "9000:9000"
         environment:

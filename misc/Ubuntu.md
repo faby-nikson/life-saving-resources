@@ -1,21 +1,125 @@
- Unix Shell
+# Ubuntu tips
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Setup your ubuntu
+
+Check this file: https://github.com/f-dumas/setup-tool/tree/master/ubuntu
+
+## Useful Shortcuts
+
+### Global to Ubuntu
+
+| Description | Keys |
+| -- | -- |
+Backtick | `AltGR + Maj + P`
+Open notification toolbar | `Super + v`
+
+### Tools
+
+| Description | Keys |
+| -- | -- |
+Clipboard indicator (display window) | `Ctrl + F9`
+Clipboard indicator (previous occurence) | `Ctrl F12`
+Open Emote | `Ctrl + Alt + E`
+
+### Trackpad (with Touchegg)
+
+| Description | Keys |
+| -- | -- |
+resize/reduce / half | `3 finger Up/down/right/left`
+Show open apps | `4 fingers to the right`
+
+### Git
+
+[Git shortcuts Oh My Zsh](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
 
 
-- [How to execute scripts](#how-to-execute-scripts)
-- [Make your own bash script](#make-your-own-bash-script)
-  - [Structure](#structure)
-  - [Tips](#tips)
-- [Useful shell script](#useful-shell-script)
-- [Example scripts](#example-scripts)
-  - [Stand alone script](#stand-alone-script)
-  - [Installer script](#installer-script)
+## ACL
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- Set rights: `setfacl -m u:$(whoami):rwX fichier`
+- Set rights recursively: `sudo setfacl -R -m u:www-data:rwX -m u:$(whoami):rwX var`
+- Set a default pattern: `sudo setfacl -dR -m u:www-data:rwX -m u:$(whoami):rwX var`
+- Get rights: `getfacl fichier`
 
-## How to execute scripts
+## Files & Folders
+
+- Get current path: `pwd`
+- Display files size in bytes / directories sorted by size: `du -sk * | sort -rn` (⚠️Careful on big folders)  
+- List sub-repositories with their size: `du --si --max-depth=1` | `du -h --max-depth=1 | sort -hr`
+- List directories with a size over X bytes: `du -sm * | awk '$1 > 1024'`
+- Display files sorted by age (older first): `ls -lrt`
+
+## Remove
+
+- Recursive delete of Thumbs files in the current directory: `find . -type f -name "Thumbs.db" -exec rm -f {} \;`
+- Remove all .svn folders in a project: `sudo find . -type d -name .svn -exec rm -rf {} \;`
+- Recursive delete with Prompt of directories and files to remove: `rm -rfI cible_a_supprimer`
+
+## Archives & compression
+
+- Simple tar: `tar czfv votre_archive.tar.gz votre_dossier/`
+- Extract: `tar zxvf votre_archive.tar.gz`
+- Compress all files in a folder: `gzip *`
+
+## Stop firewall
+
+```
+systemctl stop firewalld
+firewall-cmd --state
+```
+
+## Packages
+
+### Ubuntu version
+```
+lsb_release -a
+```
+
+Other details:
+
+```
+cat /proc/version
+```
+
+### List of available packages
+
+```
+sudo apt-get update
+sudo apt-cache pkgnames | grep php7.1
+```
+
+### Manually install a software
+
+```
+mv my_software /opt/
+chmod a+x /opt/my_software
+```
+
+Add to main dashboard:
+```
+Go to ~/.local/share/applications 
+and create your .desktop files there.
+```
+
+## Search
+
+- Find a file by its name: `find / -type f -name "xdebug.so"`
+- Find files with a size over X Gygabytes: `find -size +1G -exec du -sh {} \;`
+- Find files with a modified date older than 3 days: `find -mtime +3 -print`
+- Find in files: `grep -R "php7.1-fpm.sock" /etc/nginx/*`
+
+## Partitions
+
+- Partitions size: `df -h`
+- Partitions list: `vi /etc/fstab`
+
+## Logs
+
+- Display las error messages (-f means follow): `tail -f /var/log/messages` | `tail -f /var/log/*.log`
+
+
+## Unix Shell
+
+### How to execute scripts
 
 First of all, you need to add the right to be executed on your machine:
 ```
@@ -35,14 +139,14 @@ ln -s /the-path-to-the-repo/the-script.sh my-file.sh
 chmod +x my-file.sh 
 ```
 
-## Make your own bash script
+### Make your own bash script
 
 Check those external documentations to go further:
 - [https://www.tutorialspoint.com/unix/unix-basic-operators.htm](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
 - [https://unixutils.com/string-manipulation-with-bash/](https://unixutils.com/string-manipulation-with-bash/)
 
 
-### Structure
+#### Structure
 
 Begin your file with
 ```
@@ -54,7 +158,7 @@ Execute the file:
 chmod +x my-script.sh
 ```
 
-### Tips 
+#### Tips
 
 Get current directory :
 
@@ -67,14 +171,14 @@ then
 fi
 ```
 
-## Useful shell script
+### Useful shell script
 
 Have a look at a personal list of  
- [Useful unix shell scripts](https://github.com/f-dumas/shell-scripts) and help yourself!
+[Useful unix shell scripts](https://github.com/f-dumas/shell-scripts) and help yourself!
 
-## Example scripts
+### Example scripts
 
-### Stand alone script
+#### Stand alone script
 
 ```bash
 #!/bin/bash
@@ -102,7 +206,7 @@ Have a look at a personal list of
      -t    Test mode
      [...]"
      # Examples
-     printMessage info "## Examples: ##
+     printMessage info "### Examples: ##
     - ./script_example.sh
     - ./script_example.sh -a
     - ./example_script.sh -b lol => /!\ le fichier lol n'existe pas
@@ -150,7 +254,7 @@ Have a look at a personal list of
    exit
 ```
 
-### Installer script
+#### Installer script
 
 ```
 #!/bin/bash
@@ -166,7 +270,7 @@ source "$(cd "$(dirname "$0")" && pwd)/../.helper_functions.sh"
 displayHelp() {
   # Command usage&
   printMessage info "-------------------
-   ###Setup example### Usage: $0 [-v] [-a 'my message']
+   ###Setup example#### Usage: $0 [-v] [-a 'my message']
 -------------------"
   # Options
   printMessage info "Parameters:
@@ -174,7 +278,7 @@ displayHelp() {
   -t    Test mode
   "
   # Examples
-  printMessage info "## Examples: ##
+  printMessage info "### Examples: ##
 - $0 -v
 - $0 -a 'hello world'
 "

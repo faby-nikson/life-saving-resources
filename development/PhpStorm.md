@@ -15,7 +15,7 @@
 
 ## Live Templates
 
-You can download the settings here: [PhpStorm-live-templates-settings.zip](resources/PhpStorm-live-templates-settings.zip)
+You can download the settings here: [PhpStorm-live-templates-settings.zip](../resources/PhpStorm-live-templates-settings.zip)
 
 Here is the description of the shortcuts:
 

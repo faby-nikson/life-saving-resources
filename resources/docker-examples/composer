@@ -2,5 +2,5 @@
 echo -e "Running command: docker-compose exec --user=www-data php php -d memory_limit=-1 /usr/local/bin/composer $@ --working-dir=/var/www/symfony"
 echo -e "...............\n\n"
 
-docker-compose exec --user=www-data php php -d memory_limit=-1 /usr/local/bin/composer $@ --working-dir=/var/www/symfony
+docker-examples-compose exec --user=www-data php php -d memory_limit=-1 /usr/local/bin/composer $@ --working-dir=/var/www/symfony
 echo ""

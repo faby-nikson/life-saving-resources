@@ -4,3 +4,5 @@ De la doc, des liens, des gifs, des tutos, ... Que sais-je ? Tout ce qui pourrai
 ## Menu
 
 - [Life-saving links](./Links.md)
+- [Development docs](./development)
+- [Misc docs](./misc)

@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Local DNS](#local-dns)
   - [DNS MASQ](#dns-masq)
   - [Use the local DNS server](#use-the-local-dns-server)

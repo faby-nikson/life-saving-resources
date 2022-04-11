@@ -1,5 +1,41 @@
 # Ubuntu tips
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Ubuntu tips](#ubuntu-tips)
+  - [Setup your ubuntu](#setup-your-ubuntu)
+  - [Useful Shortcuts](#useful-shortcuts)
+    - [Global to Ubuntu](#global-to-ubuntu)
+    - [Tools](#tools)
+    - [Trackpad (with Touchegg)](#trackpad-with-touchegg)
+    - [Git](#git)
+  - [ACL](#acl)
+  - [Files & Folders](#files--folders)
+  - [Remove](#remove)
+  - [Archives & compression](#archives--compression)
+  - [Stop firewall](#stop-firewall)
+  - [Packages](#packages)
+    - [Ubuntu version](#ubuntu-version)
+    - [List of available packages](#list-of-available-packages)
+    - [Manually install a software](#manually-install-a-software)
+  - [Search](#search)
+  - [Partitions](#partitions)
+  - [Logs](#logs)
+  - [Unix Shell](#unix-shell)
+    - [How to execute scripts](#how-to-execute-scripts)
+    - [Make your own bash script](#make-your-own-bash-script)
+      - [Structure](#structure)
+      - [Tips](#tips)
+    - [Useful shell script](#useful-shell-script)
+    - [Example scripts](#example-scripts)
+      - [Stand alone script](#stand-alone-script)
+      - [Installer script](#installer-script)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 ## Setup your ubuntu
 
 Check this file: https://github.com/f-dumas/setup-tool/tree/master/ubuntu

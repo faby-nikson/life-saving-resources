@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [TCP](#tcp)
 - [UDP](#udp)
   - [Listen to UDP requests](#listen-to-udp-requests)

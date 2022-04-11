@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Links](#links)
+  - [About ethic & ecology](#about-ethic--ecology)
+    - [Misc / advices](#misc--advices)
+    - [Ethic shopping](#ethic-shopping)
+  - [About food & cooking](#about-food--cooking)
+  - [About having a little laugh](#about-having-a-little-laugh)
+    - [Life-saving GIF](#life-saving-gif)
+    - [Misc](#misc)
+  - [About music projects & stuffs](#about-music-projects--stuffs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Links
 
 Life-saving links to the web of cats.

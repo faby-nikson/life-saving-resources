@@ -64,6 +64,15 @@ Open Emote | `Ctrl + Alt + E`
 resize/reduce / half | `3 finger Up/down/right/left`
 Show open apps | `4 fingers to the right`
 
+### Toggle VPN Connection
+
+Add a custom shortcut to enable/disable VPN connection. For example:
+
+| Keys | Command | Description |
+| -- | -- |-- |
+`Ctrl + Super + arrow up` | `nmcli con up "ConnectionName"` | Enable VPN
+`Ctrl + Super + arrow down` | `nmcli con down "ConnectionName"` | Disable VPN
+
 ### Git
 
 [Git shortcuts Oh My Zsh](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)

@@ -52,6 +52,7 @@ Life-saving links to the web of cats.
 - [50 WTF images](https://www.buzzfeed.com/fr/daves4/50-photos-de-banques-dimages-inutilisables-absurdes)
 - [Kaamelott soundboard](https://kaamelott-soundboard.2ec0b4.fr/#son/cest_de_la_merde)
 - [Objections GIF maker](https://objection.lol)
+- [Tif Hair: Noms des salons de coifures](https://tif.hair)
 
 ## About music projects & stuffs
 

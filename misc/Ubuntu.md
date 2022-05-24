@@ -48,6 +48,9 @@ Check this file: https://github.com/f-dumas/setup-tool/tree/master/ubuntu
 | -- | -- |
 Backtick | `AltGR + Maj + P`
 Open notification toolbar | `Super + v`
+Kill all processus softly | `Alt + Print + e`
+Kill all | `Alt + Print + i`
+Hard reboot | `Alt + Print + b`
 
 ### Tools
 

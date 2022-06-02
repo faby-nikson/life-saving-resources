@@ -47,9 +47,10 @@ Life-saving links to the web of cats.
 - [gnagnagna](https://media.giphy.com/media/l4FGCVKu8ak1e0sIE/source.gif)
 - [powpowpow](https://i.makeagif.com/media/3-17-2016/DSWNyL.gif)
 
-### Misc
+### Misc & fun
 
 - [50 WTF images](https://www.buzzfeed.com/fr/daves4/50-photos-de-banques-dimages-inutilisables-absurdes)
+- [Fun city names](https://www.google.fr/maps/d/viewer?mid=1aQXHLjuDdYm8en-XZ_E33vq8xrhx7HGC&hl=fr)
 - [Kaamelott soundboard](https://kaamelott-soundboard.2ec0b4.fr/#son/cest_de_la_merde)
 - [Objections GIF maker](https://objection.lol)
 - [Tif Hair: Noms des salons de coifures](https://tif.hair)

@@ -7,7 +7,7 @@ alias _setup="cd ~/Workspace/perso/life-saving-resources/scripts/setup-ubuntu"
 
 #------------- Git Tool ---------------
 alias _gitchecker="~/Workspace/perso/git-helper-tool/git-checker ~/Workspace/"
-alias _gitclean='~/Workspace/perso/git-helper-tool/git-clean'
+alias _gitcleaner='~/Workspace/perso/git-helper-tool/git-clean'
 
 #------------- PHP Tool ---------------
 alias _phpv="~/Workspace/perso/php-helper-tool/php-tool-version $1"

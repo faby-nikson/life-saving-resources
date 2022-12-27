@@ -60,11 +60,20 @@ Ethic shopping
 
 ### 😆 About having a little laugh
 
-Life-saving GIF
+Life-saving Memes
 
 - BIM: [powpowpow](https://i.makeagif.com/media/3-17-2016/DSWNyL.gif)
-- Gnagnagna: [Girl](https://giphy.com/gifs/weird-face-blablabla-sOmF6ZgrvZZIY) - [Man](https://media.giphy.com/media/l4FGCVKu8ak1e0sIE/source.gif)
-- What? : [Lama: What?](https://giphy.com/gifs/creepy-scary-stare-Q4uClGP1UTzt6) - ❤️ [Serious Cat](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/379ee75a-f872-471c-ac14-82da72015e56/d7v7bme-11bdfee1-d919-4fe3-8da2-c289012444d5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3OWVlNzVhLWY4NzItNDcxYy1hYzE0LTgyZGE3MjAxNWU1NlwvZDd2N2JtZS0xMWJkZmVlMS1kOTE5LTRmZTMtOGRhMi1jMjg5MDEyNDQ0ZDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hkDWyXIdGE6R-HTnN9i07zZ23pMIoRNTuE5quKTexek)
+- Mépris:
+  - ❤️ [Antoine daniel: Explication ](https://youtu.be/mD-Jcg5UvUc)
+  - ❤️ [Lepers: C'est non](https://www.youtube.com/watch?v=hSpQkbcw0TE)
+  - [Lama: What?](https://giphy.com/gifs/creepy-scary-stare-Q4uClGP1UTzt6)
+  - [Nobody cares](https://imgflip.com/i/6bbu6m)
+  - ❤️ [Serious Cat](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/379ee75a-f872-471c-ac14-82da72015e56/d7v7bme-11bdfee1-d919-4fe3-8da2-c289012444d5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3OWVlNzVhLWY4NzItNDcxYy1hYzE0LTgyZGE3MjAxNWU1NlwvZDd2N2JtZS0xMWJkZmVlMS1kOTE5LTRmZTMtOGRhMi1jMjg5MDEyNDQ0ZDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hkDWyXIdGE6R-HTnN9i07zZ23pMIoRNTuE5quKTexek)
+- Gnagnagna:
+  - [Woman](https://giphy.com/gifs/weird-face-blablabla-sOmF6ZgrvZZIY) 
+  - [Man](https://media.giphy.com/media/l4FGCVKu8ak1e0sIE/source.gif)
+- [Qu'est-ce que c'est que cette chose là?](https://www.youtube.com/shorts/TQx4JcGG84E)
+- [Salut tout le monde everybody](https://www.youtube.com/watch?v=Bk1J9ojjzUo)
 
 Misc & fun
 

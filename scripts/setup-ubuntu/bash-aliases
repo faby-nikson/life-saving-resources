@@ -1,5 +1,6 @@
 #------------- Global ---------------
 alias ws="cd ~/Workspace/ && l"
+alias _p="cd ~/Workspace/perso && l"
 alias _life="cd ~/Workspace/perso/life-saving-resources"
 alias _setup="cd ~/Workspace/perso/life-saving-resources/scripts/setup-ubuntu"
 

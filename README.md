@@ -24,7 +24,8 @@ De la doc, des liens, des gifs, des tutos, ... Tout ce qui pourrait servir peut-
 
 - [Documentation about everything](./docs)
 - [Documentation additional resources](./resources)
-- [Personal scripts](./resources) (such as setup tools and stuff like that)
+- [Personal scripts](./scripts) (such as setup tools and stuff like that) 
+  - [Setup Ubuntu](./script/setup-ubuntu) script 
 
 ## Additional life-saving links
 

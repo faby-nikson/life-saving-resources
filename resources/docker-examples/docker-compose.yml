@@ -12,7 +12,7 @@ services:
     apache:
         build: ../windows-scripts-examples/docker-examples/containers/apache
         environment:
-            - WEBSITE_HOST=sepr.development.acti
+            - WEBSITE_HOST=sepr.docs.acti
         ports:
             - "80:80"
             - "443:443"

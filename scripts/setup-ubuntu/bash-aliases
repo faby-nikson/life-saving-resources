@@ -1,0 +1,12 @@
+#------------- Global ---------------
+alias ws="cd ~/Workspace/ && l"
+alias _life="cd ~/Workspace/perso/life-saving-resources"
+alias _setup="cd ~/Workspace/perso/setup-ubuntu-tool"
+
+#------------- Git Tool ---------------
+alias _gitchecker="~/Workspace/perso/git-helper-tool/git-checker ~/Workspace/"
+alias _gitclean='~/Workspace/perso/git-helper-tool/git-clean'
+
+#------------- PHP Tool ---------------
+alias _phpv="~/Workspace/perso/php-helper-tool/php-tool-version $1"
+alias _phpxdebug="~/Workspace/perso/php-helper-tool/php-tool-xdebug"

@@ -1,14 +1,5 @@
 # Docker
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Install](#install)
-- [Commands](#commands)
-- [Docker Compose](#docker-compose)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Install
 
 First of all, you need to [install docker](https://www.docker.com/products/docker-engine)

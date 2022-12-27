@@ -1,5 +1,9 @@
 # Unix Shell / bash
 
+
+> :warning: Not up to date
+
+
 How to develop local scripts with ubuntu.
 
 ## How to execute scripts
@@ -194,7 +198,7 @@ printInColor yellow "/!\ Run command to refresh aliases: 'source ~/.zshrc'"
 
 # Clone personal useful projects
 printInColor blue "> Git clone projects"
-git clone git@github.m6web.fr:f-dumas/setup-dev-env.git ~/Workspace/setup-dev-env-backend
+git clone git@github.m6web.fr:f-dumas/src-dev-env.git ~/Workspace/src-dev-env-backend
 printInColor green "Done"
 ```
 

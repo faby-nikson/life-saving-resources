@@ -1,7 +1,7 @@
 .SILENT: help
 
 SOURCE_DIR=$(shell pwd)
-SCRIPTS_DIR=${SOURCE_DIR}/scripts
+SCRIPTS_DIR=${SOURCE_DIR}/src
 
 ## Colors
 COLOR_RESET   = \033[0m

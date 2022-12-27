@@ -18,7 +18,7 @@
 
 ## Live Templates
 
-You can download the settings here: [phpstorm-settings.zip](../resources/phpstorm-settings.zip)
+You can download the settings here: [phpstorm-settings.zip](../configurations/phpstorm-settings.zip)
 
 Here is the description of the shortcuts:
 

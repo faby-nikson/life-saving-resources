@@ -23,7 +23,7 @@ De la doc, des liens, des gifs, des tutos, ... Tout ce qui pourrait servir peut-
 > Personal documentations & experiments
 
 - [Documentation about everything](./docs)
-- [Documentation additional resources](./resources)
+- [Documentation additional resources](./examples)
 - [Personal scripts](./scripts) (such as setup tools and stuff like that) 
   - [Setup Ubuntu](./script/setup-ubuntu) script 
 

@@ -33,7 +33,6 @@ printInColor blue "> Git clone personal projects"
 mkdir ~/Workspace/perso
 git clone git@github.com:f-dumas/git-helper-tool.git ~/Workspace/perso/git-helper-tool
 git clone git@github.com:f-dumas/php-helper-tool.git ~/Workspace/perso/php-helper-tool
-git clone git@github.com:f-dumas/life-saving-resources.git ~/Workspace/perso/life-saving-resources
 printInColor green "Done"
 
 # Install Emote

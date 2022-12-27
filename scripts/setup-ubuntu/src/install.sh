@@ -17,7 +17,7 @@ printInColor() {
 printInColor blue "> Install requirements dependencies"
 sudo apt install "wget"
 sudo apt install "composer"
-sudo apt install "php7.4-fpm"
+#sudo apt install "php7.4-fpm" -> no longer works
 sudo apt install "php8.1-fpm"
 sudo apt install "nginx"
 sudo apt install "curl"

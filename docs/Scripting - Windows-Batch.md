@@ -14,7 +14,7 @@
 
 ## Script examples
 
-Check [Here](../resources/windows-scripts-examples)
+Check [Here](../examples/windows-scripts-examples)
 
 ## Scripts examples
 

@@ -56,4 +56,4 @@ Retrouver ip de docker
 docker-machine ip
 ``` 
 
-Resources examples: [Resources examples](../resources/docker-examples/) 
+Resources examples: [Resources examples](../examples/docker-examples/) 

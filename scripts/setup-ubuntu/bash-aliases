@@ -1,7 +1,7 @@
 #------------- Global ---------------
 alias ws="cd ~/Workspace/ && l"
 alias _life="cd ~/Workspace/perso/life-saving-resources"
-alias _setup="cd ~/Workspace/perso/setup-ubuntu-tool"
+alias _setup="cd ~/Workspace/perso/life-saving-resources/scripts/setup-ubuntu"
 
 #------------- Git Tool ---------------
 alias _gitchecker="~/Workspace/perso/git-helper-tool/git-checker ~/Workspace/"

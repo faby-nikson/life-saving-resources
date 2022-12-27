@@ -4,6 +4,7 @@ alias _p="cd ~/Workspace/perso && l"
 alias _perso="cd ~/Workspace/perso && l"
 alias _life="cd ~/Workspace/perso/life-saving-resources"
 alias _setup="cd ~/Workspace/perso/life-saving-resources/scripts/setup-ubuntu"
+alias _l="~/Workspace/perso/life-saving-resources/scripts/get-link-from-readme.sh"
 
 #------------- Git Tool ---------------
 alias _gitchecker="~/Workspace/perso/git-helper-tool/git-checker ~/Workspace/"

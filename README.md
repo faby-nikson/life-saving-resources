@@ -49,6 +49,10 @@ Ethic shopping
 - [Recyclivre](https://www.recyclivre.com/shop/): Second-hand books
 - [We dress fair](https://www.wedressfair.fr): Eco-friendly clothes
 
+High tech
+
+- [Framework Computer](https://frame.work/): PC démontable et durables
+
 ### 🍜 About food & cooking
 
 - [Taste Atlas](https://www.tasteatlas.com): To check food apecialties all over the world

@@ -31,6 +31,11 @@ De la doc, des liens, des gifs, des tutos, ... Tout ce qui pourrait servir peut-
 
 ### 🌿 About ethic & ecology
 
+Food
+
+- [Greenpeace Food Calendar](https://www.greenpeace.fr/guetteur/calendrier/): Seasonal food calendar in France 
+- [Guide Labels Alimentaires](https://www.guide-labels-alimentaires.com/): Explanation about French food labels
+
 Misc / advices
 
 - [Consigne de tri](https://consignesdetri.fr): Help us to sort our wastes in France

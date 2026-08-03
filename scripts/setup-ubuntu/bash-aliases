@@ -1,15 +1,10 @@
-#------------- Global ---------------
+# --- Global ---
 alias ws="cd ~/Workspace/ && l"
-alias _p="cd ~/Workspace/perso && l"
-alias _perso="cd ~/Workspace/perso && l"
-alias _life="cd ~/Workspace/perso/life-saving-resources"
-alias _setup="cd ~/Workspace/perso/life-saving-resources/scripts/setup-ubuntu"
+alias _pl="cd ~/Workspace/perso/life-saving-resources"
+
+# --- Scripts ---
 alias _l="~/Workspace/perso/life-saving-resources/scripts/get-link-from-readme.sh"
 
-#------------- Git Tool ---------------
-alias _gitchecker="~/Workspace/perso/git-helper-tool/git-checker ~/Workspace/"
-alias _gitcleaner='~/Workspace/perso/git-helper-tool/git-clean'
-
-#------------- PHP Tool ---------------
-alias _phpv="~/Workspace/perso/php-helper-tool/php-tool-version $1"
-alias _phpxdebug="~/Workspace/perso/php-helper-tool/php-tool-xdebug"
+# --- Git Tool ---
+alias _gitchecker="~/Workspace/perso/life-saving-resources/scripts/git/git-checker ~/Workspace/"
+alias _gitcleaner='~/Workspace/perso/life-saving-resources/scripts/git/git-clean'

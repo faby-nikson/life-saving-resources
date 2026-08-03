@@ -1,0 +1,152 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+printInColor() {
+  local inputColor=$1
+  local textToDisplay="$2"
+  local color="" reset=""
+  if [[ -t 1 ]] && command -v tput >/dev/null 2>&1; then
+    case $inputColor in
+    red) color=$(tput setaf 1 2>/dev/null || true) ;;
+    green) color=$(tput setaf 2 2>/dev/null || true) ;;
+    yellow) color=$(tput setaf 3 2>/dev/null || true) ;;
+    blue) color=$(tput setaf 4 2>/dev/null || true) ;;
+    cyan) color=$(tput setaf 6 2>/dev/null || true) ;;
+    esac
+    reset=$(tput sgr0 2>/dev/null || true)
+  fi
+  echo "${color}${textToDisplay}${reset}"
+}
+
+usage() {
+  cat <<EOF
+Usage: $(basename "$0") <root-path> [--ignore-default-branch-check]
+
+Git Checker: check your local git projects statuses.
+  - uncommitted modified / added / deleted / untracked files
+  - repositories not on main or master
+
+Options:
+  --ignore-default-branch-check  Skip the main/master branch check
+  -h, --help                     Show this help
+EOF
+}
+
+ROOT_PATH=""
+IGNORE_DEFAULT_BRANCH_CHECK=false
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+  -h | --help)
+    usage
+    exit 0
+    ;;
+  --ignore-default-branch-check)
+    IGNORE_DEFAULT_BRANCH_CHECK=true
+    shift
+    ;;
+  -*)
+    echo "Unknown option: $1" >&2
+    usage
+    exit 1
+    ;;
+  *)
+    if [[ -n "$ROOT_PATH" ]]; then
+      echo "Unexpected argument: $1" >&2
+      usage
+      exit 1
+    fi
+    ROOT_PATH="$1"
+    shift
+    ;;
+  esac
+done
+
+if [[ -z "$ROOT_PATH" ]]; then
+  usage
+  exit 1
+fi
+
+if [[ ! -d "$ROOT_PATH" ]]; then
+  echo "Root path does not exist: $ROOT_PATH" >&2
+  exit 1
+fi
+
+COMMAND_START=$(date +%s)
+
+# Parallel arrays: reason label -> list of projects (newline-separated)
+declare -A PROJECTS_BY_REASON
+REASON_ORDER=(
+  "Branch not on main or master"
+  "Uncommited modified files"
+  "Uncommited added files"
+  "Uncommited deleted files"
+  "Uncommited untracked files"
+)
+
+add_project() {
+  local reason="$1"
+  local folder="$2"
+  if [[ -n "${PROJECTS_BY_REASON[$reason]+x}" ]]; then
+    PROJECTS_BY_REASON["$reason"]+=$'\n'"$folder"
+  else
+    PROJECTS_BY_REASON["$reason"]="$folder"
+  fi
+}
+
+find_git_repositories() {
+  local path_to_check="$1"
+  # Mirror PHP Finder depth('< 3'): .git dirs up to 3 levels under root
+  find "$path_to_check" -maxdepth 3 -type d -name '.git' 2>/dev/null | while read -r git_dir; do
+    dirname "$git_dir"
+  done
+}
+
+check_current_branch() {
+  local folder="$1"
+  local branch
+  branch=$(git -C "$folder" branch --show-current 2>/dev/null || true)
+  if [[ "$branch" != "main" && "$branch" != "master" ]]; then
+    add_project "Branch not on main or master" "${folder} - ${branch}"
+  fi
+}
+
+check_status() {
+  local folder="$1"
+  local status
+  status=$(LC_ALL=C git -C "$folder" status --porcelain 2>/dev/null || true)
+
+  if echo "$status" | grep -qE '^.M|^M'; then
+    add_project "Uncommited modified files" "$folder"
+  fi
+  if echo "$status" | grep -qE '^A|^.A'; then
+    add_project "Uncommited added files" "$folder"
+  fi
+  if echo "$status" | grep -qE '^D|^.D'; then
+    add_project "Uncommited deleted files" "$folder"
+  fi
+  if echo "$status" | grep -qE '^\?\?'; then
+    add_project "Uncommited untracked files" "$folder"
+  fi
+}
+
+while IFS= read -r folder; do
+  [[ -z "$folder" ]] && continue
+  check_status "$folder"
+  if [[ "$IGNORE_DEFAULT_BRANCH_CHECK" == false ]]; then
+    check_current_branch "$folder"
+  fi
+done < <(find_git_repositories "$ROOT_PATH")
+
+for reason in "${REASON_ORDER[@]}"; do
+  if [[ -n "${PROJECTS_BY_REASON[$reason]+x}" ]]; then
+    printInColor cyan "Non-conform project: ${reason}"
+    while IFS= read -r project; do
+      [[ -z "$project" ]] && continue
+      printInColor red "--- ${project}"
+    done <<<"${PROJECTS_BY_REASON[$reason]}"
+  fi
+done
+
+ELAPSED=$(($(date +%s) - COMMAND_START))
+printInColor yellow "Command ended in ${ELAPSED}s"

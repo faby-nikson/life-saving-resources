@@ -33,13 +33,9 @@ if grep -q "bash-aliases" "$ZSHFILE"; then
 fi
 printInColor yellow "/!\ Run command to refresh aliases: 'source ~/.zshrc'"
 
-# Clone personal useful projects
-# git-helper-tool is gone: replaced by bin/git-checker and bin/git-clean in this repository
-printInColor blue "> Git clone personal projects"
-mkdir -p ~/Workspace/perso
-[ -d ~/Workspace/perso/php-helper-tool ] ||
-  git clone git@github.com:faby-nikson/php-helper-tool.git ~/Workspace/perso/php-helper-tool
-printInColor green "Done"
+# No personal project left to clone: git-helper-tool was replaced by bin/git-checker and
+# bin/git-clean in this repository, and php-helper-tool no longer exists on GitHub.
+# ~/Workspace/perso is created by hand, see the prerequisites in README.md.
 
 # Install Emote
 printInColor blue "> Setup Emote"

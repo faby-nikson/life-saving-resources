@@ -38,7 +38,7 @@ printInColor yellow "/!\ Run command to refresh aliases: 'source ~/.zshrc'"
 printInColor blue "> Git clone personal projects"
 mkdir -p ~/Workspace/perso
 [ -d ~/Workspace/perso/php-helper-tool ] ||
-  git clone git@github.com:f-dumas/php-helper-tool.git ~/Workspace/perso/php-helper-tool
+  git clone git@github.com:faby-nikson/php-helper-tool.git ~/Workspace/perso/php-helper-tool
 printInColor green "Done"
 
 # Install Emote

@@ -25,7 +25,7 @@ Le repo peut vivre où tu veux : les scripts et les alias se repèrent tout seul
 
 ```
 cd ~/Workspace/perso
-git clone git@github.com:f-dumas/life-saving-resources.git
+git clone git@github.com:faby-nikson/life-saving-resources.git
 cd life-saving-resources/setup
 ```
 

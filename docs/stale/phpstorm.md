@@ -1,24 +1,8 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [PhpStorm](#phpstorm)
-  - [Live Templates](#live-templates)
-    - [General templates](#general-templates)
-    - [PHP Templates](#php-templates)
-    - [PHP Templates: Symfony](#php-templates-symfony)
-    - [Javascript templates](#javascript-templates)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # PhpStorm
-
-
-> :warning: Not up to date
-
 
 ## Live Templates
 
-You can download the settings here: [phpstorm-settings.zip](../configurations/phpstorm-settings.zip)
+You can download the settings here: [settings.zip](../../setup/config/phpstorm/settings.zip)
 
 Here is the description of the shortcuts:
 

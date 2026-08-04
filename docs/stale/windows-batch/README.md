@@ -1,20 +1,8 @@
 # Windows Batch
 
-
-> :warning: Not up to date
-
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Script examples](#script-examples)
-- [Scripts examples](#scripts-examples)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Script examples
 
-Check [Here](../examples/windows-scripts-examples)
+Check [Here](./examples)
 
 ## Scripts examples
 

@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Repo root, resolved from this script's own location
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+LINKS_DIR="$ROOT/links"
+
+usage() {
+  cat <<EOF
+Usage: $(basename "$0") <phrase>
+
+Search the links collection for a phrase, case-insensitive.
+Looks into: ${LINKS_DIR}
+
+Options:
+  -h, --help  Show this help
+EOF
+}
+
+case "${1:-}" in
+-h | --help)
+  usage
+  exit 0
+  ;;
+esac
+
+if [[ $# -ne 1 ]]; then
+  echo "You must specify a phrase to get the matching link." >&2
+  usage
+  exit 1
+fi
+
+if [[ ! -d "$LINKS_DIR" ]]; then
+  echo "Links directory not found: $LINKS_DIR" >&2
+  exit 1
+fi
+
+# Print matches as "<file>: <line>", paths relative to the links directory
+matches=$(grep -rin --include='*.md' --no-messages -- "$1" "$LINKS_DIR" |
+  sed -E "s#^${LINKS_DIR}/##; s/^([^:]+):[0-9]+:[[:space:]]*/\1: /" || true)
+
+if [[ -z "$matches" ]]; then
+  echo "No link matching: $1" >&2
+  exit 1
+fi
+
+echo "$matches"

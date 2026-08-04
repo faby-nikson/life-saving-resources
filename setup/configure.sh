@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-SOURCE_DIR=$(pwd)
+# This script's own directory, so it works whatever the current working directory
+SETUP_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Color text
 printInColor() {
@@ -24,15 +25,20 @@ printInColor green "Done"
 # Setup personal aliases
 printInColor blue "> Setup personal aliases"
 ZSHFILE=~/.zshrc
-LINE_TO_ADD="source ${SOURCE_DIR}/bash-aliases"
+LINE_TO_ADD="source ${SETUP_DIR}/config/zsh/aliases.zsh"
 grep -qF -- "$LINE_TO_ADD" "$ZSHFILE" || (echo "$LINE_TO_ADD" >>"$ZSHFILE" && printInColor green "Done")
+# The aliases file used to be named bash-aliases and lived elsewhere: warn about the leftover line
+if grep -q "bash-aliases" "$ZSHFILE"; then
+  printInColor red "/!\ Remove the obsolete 'source .../bash-aliases' line from ${ZSHFILE}"
+fi
 printInColor yellow "/!\ Run command to refresh aliases: 'source ~/.zshrc'"
 
 # Clone personal useful projects
+# git-helper-tool is gone: replaced by bin/git-checker and bin/git-clean in this repository
 printInColor blue "> Git clone personal projects"
-mkdir ~/Workspace/perso
-git clone git@github.com:f-dumas/git-helper-tool.git ~/Workspace/perso/git-helper-tool
-git clone git@github.com:f-dumas/php-helper-tool.git ~/Workspace/perso/php-helper-tool
+mkdir -p ~/Workspace/perso
+[ -d ~/Workspace/perso/php-helper-tool ] ||
+  git clone git@github.com:f-dumas/php-helper-tool.git ~/Workspace/perso/php-helper-tool
 printInColor green "Done"
 
 # Install Emote

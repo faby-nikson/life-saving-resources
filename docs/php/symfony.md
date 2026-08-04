@@ -1,20 +1,5 @@
 # Symfony
 
-
-> :warning: Not up to date
-
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Tooltips](#tooltips)
-  - [ACL](#acl)
-  - [Cache clear](#cache-clear)
-  - [Doctrine](#doctrine)
-  - [Bundle development](#bundle-development)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 Tooltips
 ------
 

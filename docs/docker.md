@@ -56,4 +56,5 @@ Retrouver ip de docker
 docker-machine ip
 ``` 
 
-Resources examples: [Resources examples](../examples/docker-examples/) 
+Ancien exemple d'archi Apache + php-fpm (archivé, ne build plus) :
+[`docs/stale/docker-drupal-example`](./stale/docker-drupal-example) 

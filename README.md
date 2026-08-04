@@ -1,97 +1,47 @@
+# Life-saving resources
+
 De la doc, des liens, des gifs, des tutos, ... Tout ce qui pourrait servir peut-être ici. Aussi des scripts.
 
----
+Le repo est rangé par **ce qu'on en fait**, pas par type de fichier :
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+| Dossier | C'est quoi | Quand j'y vais |
+|---|---|---|
+| [`docs/`](./docs) | Aide-mémoire par sujet (git, docker, php, shell...) | « c'était quoi la commande pour... ? » |
+| [`links/`](./links) | La collection de liens (écologie, bouffe, musique, memes) | « j'avais un lien pour ça » |
+| [`setup/`](./setup) | Installer et configurer une machine Ubuntu de zéro | nouveau PC, ou réinstall |
+| [`bin/`](./bin) | Les outils du quotidien, à mettre dans le `PATH` | tous les jours |
 
-- [In this repository](#in-this-repository)
-- [Additional life-saving links](#additional-life-saving-links)
-  - [🌿 About ethic & ecology](#-about-ethic--ecology)
-  - [🍜 About food & cooking](#-about-food--cooking)
-  - [🎶 About music projects & stuffs](#-about-music-projects--stuffs)
-  - [😆 About having a little laugh](#-about-having-a-little-laugh)
+## docs/
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+Aide-mémoire. Un fichier par sujet, ou un dossier quand il y a des exemples de code à côté.
 
----
+- [Git](./docs/git.md)
+- [Docker](./docs/docker.md)
+- [PHP](./docs/php) — [Symfony](./docs/php/symfony.md), [outillage](./docs/php/tooling.md), [scripts d'exemple](./docs/php/examples)
+- [Unix shell / bash](./docs/unix-shell.md)
+- [Ubuntu](./docs/ubuntu.md) — astuces et raccourcis (pour *installer* Ubuntu, voir [`setup/`](./setup))
+- [Nano](./docs/nano.md)
+- [Markdown](./docs/markdown.md)
+- [TCP / UDP](./docs/tcp-udp.md)
+- [`docs/stale/`](./docs/stale) — plus maintenu, gardé au cas où
 
-## In this repository
+## links/
 
-> Personal documentations & experiments
+Voir [l'index des liens](./links). Depuis le terminal : `_l <mot-clé>`.
 
-- [Documentation about everything](./docs)
-- [Documentation additional resources](./examples)
-- [Personal scripts](./scripts) (such as setup tools and stuff like that) 
-  - [Setup Ubuntu](./scripts/setup-ubuntu) script 
+## setup/
 
-## Additional life-saving links
+Voir [le runbook d'installation](./setup/README.md). En résumé : `make install`, reboot, `make config`, puis
+[les étapes manuelles](./setup/manual-steps.md) (extensions Gnome, gestes du trackpad, raccourcis).
 
-> Life-saving links to the web of cats.
+## bin/
 
-### Free tools
+Ajouté au `PATH` par [`setup/config/zsh/aliases.zsh`](./setup/config/zsh/aliases.zsh).
 
-- [Unspplash](https://unsplash.com): Free images
+| Outil | Ce qu'il fait | Alias |
+|---|---|---|
+| [`git-checker`](./bin/git-checker) | Liste les repos locaux sales ou pas sur main/master | `_gitchecker` |
+| [`git-clean`](./bin/git-clean) | Nettoie untracked / ignored / branches mergées | `_gitcleaner` |
+| [`lsr-link`](./bin/lsr-link) | Cherche un mot-clé dans `links/` | `_l` |
 
-### 🌿 About ethic & ecology
-
-Food
-
-- [Greenpeace Food Calendar](https://www.greenpeace.fr/guetteur/calendrier/): Seasonal food calendar in France 
-- [Guide Labels Alimentaires](https://www.guide-labels-alimentaires.com/): Explanation about French food labels
-
-Misc / advices
-
-- [Consigne de tri](https://consignesdetri.fr): Help us to sort our wastes in France
-- [Low Tech Lab](https://lowtechlab.org/fr): Tutos and stuff to create stuff with low tech
-- [Moralscore](https://moralscore.org): Give reports and moral scores about companies
-- [Murfy](https://murfy.fr) Fix device at home
-- [Shift Your Job](https://shiftyourjob.org): To find a new job with climate caring
-
-Ethic shopping
-
-- [Dream Act](https://dreamact.eu/fr): Eco-friendly shopping
-- [Picture Organic Clothing](https://www.picture-organic-clothing.com): Eco-friendly clothes
-- [Produits Durable](https://www.produitsdurables.fr): To check how to get long term duration products
-- [Recyclivre](https://www.recyclivre.com/shop/): Second-hand books
-- [We dress fair](https://www.wedressfair.fr): Eco-friendly clothes
-
-High tech
-
-- [Framework Computer](https://frame.work/): PC démontable et durables
-
-### 🍜 About food & cooking
-
-- [Taste Atlas](https://www.tasteatlas.com): To check food apecialties all over the world
-
-### 🎶 About music projects & stuffs
-
-- [Equipboard](https://equipboard.com): Musicians and their gear
-- [Landr](https://app.landr.com): Online Music Mastering
-
-### 😆 About having a little laugh (memes)
-
-- [BIM/powpowpow](https://i.makeagif.com/media/3-17-2016/DSWNyL.gif)
-- [Gnagnagna/Woman](https://giphy.com/gifs/weird-face-blablabla-sOmF6ZgrvZZIY)
-- [Gnagnagna/Man](https://media.giphy.com/media/l4FGCVKu8ak1e0sIE/source.gif)
-- [GO! bwah](https://www.youtube.com/watch?v=WJq4jWSQNd8)
-- No need to be respectful:
-  - ❤️ [Antoine daniel: Explication ](https://www.youtube.com/embed/mD-Jcg5UvUc)
-  - ❤️ [Lepers: C'est non](https://www.youtube.com/embed/hSpQkbcw0TE)
-  - [Lama: What?](https://giphy.com/gifs/creepy-scary-stare-Q4uClGP1UTzt6)
-  - [Nobody cares](https://imgflip.com/i/6bbu6m)
-  - ❤️ [Serious Cat](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/379ee75a-f872-471c-ac14-82da72015e56/d7v7bme-11bdfee1-d919-4fe3-8da2-c289012444d5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3OWVlNzVhLWY4NzItNDcxYy1hYzE0LTgyZGE3MjAxNWU1NlwvZDd2N2JtZS0xMWJkZmVlMS1kOTE5LTRmZTMtOGRhMi1jMjg5MDEyNDQ0ZDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hkDWyXIdGE6R-HTnN9i07zZ23pMIoRNTuE5quKTexek)
-- [Salut tout le monde everybody](https://www.youtube.com/watch?v=Bk1J9ojjzUo)
-- [The Pope of nope](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSudpMVsqAruFm4_1Pe1OeCDS7xGITWnBcdHU7p7jOJggquzc6e)
-- [Tout crâmer/Bear](https://pbs.twimg.com/media/EMKyu6xXkAAIfkW.jpg:large)
-- [What/Qu'est-ce que c'est que cette chose là?](https://www.youtube.com/shorts/TQx4JcGG84E)
-
-
-Misc & fun
-
-- [50 WTF images](https://www.buzzfeed.com/fr/daves4/50-photos-de-banques-dimages-inutilisables-absurdes)
-- [Fun city names](https://www.google.fr/maps/d/viewer?mid=1aQXHLjuDdYm8en-XZ_E33vq8xrhx7HGC&hl=fr)
-- [Kaamelott soundboard](https://kaamelott-soundboard.2ec0b4.fr/#son/cest_de_la_merde)
-- [Objections GIF maker](https://objection.lol)
-- [Tif Hair: Noms des salons de coifures](https://tif.hair)
-- https://pointerpointer.com/
+Chaque outil répond à `--help`.

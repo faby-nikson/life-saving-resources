@@ -1,7 +1,7 @@
 .SILENT: help
 
-SOURCE_DIR=$(shell pwd)
-SCRIPTS_DIR=${SOURCE_DIR}/src
+# This Makefile's own directory, so it works from anywhere (make -C setup install)
+SETUP_DIR := $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
 
 ## Colors
 COLOR_RESET   = \033[0m
@@ -17,7 +17,7 @@ help:
 	printf "${COLOR_COMMENT}Usage:${COLOR_RESET}\n"
 	printf " make [target]\n\n"
 	printf "${COLOR_COMMENT}Available targets:${COLOR_RESET}\n"
-	awk '/^[a-zA-Z\-\_0-9\.@]+:/ { \
+	awk '/^[a-zA-Z_0-9.@-]+:/ { \
 		helpMessage = match(lastLine, /^## (.*)/); \
 		if (helpMessage) { \
 			helpCommand = substr($$1, 0, index($$1, ":")); \
@@ -34,13 +34,13 @@ define printSection
 endef
 
 .PHONY: install
-## Run install: download and src useful components
+## Run install: download and install useful components
 install:
 	$(call printSection,INSTALL)
-	${SCRIPTS_DIR}/install.sh
+	${SETUP_DIR}/install.sh
 
 .PHONY: config
 ## Setup configurations
 config:
 	$(call printSection,CONFIG)
-	${SCRIPTS_DIR}/configurations.sh
+	${SETUP_DIR}/configure.sh

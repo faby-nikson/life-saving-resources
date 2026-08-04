@@ -1,9 +1,5 @@
 # Unix Shell / bash
 
-
-> :warning: Not up to date
-
-
 How to develop local scripts with ubuntu.
 
 ## How to execute scripts
@@ -170,37 +166,11 @@ source "$SOURCE_DIR/scripts/_helper.sh"
 
 ### Installer script
 
-```bash
-#!/usr/bin/env bash
+Plutôt qu'un exemple recopié ici (qui divergeait), voir les vrais scripts du repo :
 
-SOURCE_DIR=$(cd "$(dirname "$0")/.." && pwd)
-
-# Color text
-printInColor() {
-  local inputColor=$1
-  local textToDisplay="$2"
-  case $inputColor in
-  red) color=$(tput setaf 1) ;;
-  green) color=$(tput setaf 2) ;;
-  yellow) color=$(tput setaf 3) ;;
-  blue) color=$(tput setaf 4) ;;
-  esac
-  local reset=$(tput sgr0)
-  echo ""${color}${textToDisplay}${reset}""
-}
-
-# Setup work aliases
-printInColor blue "> Setup personal aliases"
-ZSHFILE=~/.zshrc
-LINE_TO_ADD="source ${SOURCE_DIR}/bash-aliases"
-grep -qF -- "$LINE_TO_ADD" "$ZSHFILE" || (echo "$LINE_TO_ADD" >>"$ZSHFILE" && printInColor green "Done")
-printInColor yellow "/!\ Run command to refresh aliases: 'source ~/.zshrc'"
-
-# Clone personal useful projects
-printInColor blue "> Git clone projects"
-git clone git@github.m6web.fr:f-dumas/src-dev-env.git ~/Workspace/src-dev-env-backend
-printInColor green "Done"
-```
+- [`setup/install.sh`](../setup/install.sh) — liste de paquets, `apt install`, oh-my-zsh
+- [`setup/configure.sh`](../setup/configure.sh) — ajout d'un `source` dans le `.zshrc`, clones, snap
+- [`setup/Makefile`](../setup/Makefile) — comment exposer tout ça derrière `make install` / `make config`
 
 ### Examples of how to handle parameters
 

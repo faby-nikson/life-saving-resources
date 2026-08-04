@@ -1,25 +1,5 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [PHP](#php)
-  - [Tool tips](#tool-tips)
-  - [Good practise](#good-practise)
-    - [Change php alias to handle different php versions](#change-php-alias-to-handle-different-php-versions)
-    - [Code review](#code-review)
-    - [Code debug](#code-debug)
-    - [Tests](#tests)
-  - [Patterns](#patterns)
-- [ORM-less](#orm-less)
-    - [Use a specific version of PHP with PECL](#use-a-specific-version-of-php-with-pecl)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 PHP
 ======
-
-
-> :warning: Not up to date
-
 
 Tool tips
 ------
@@ -46,7 +26,7 @@ sudo update-alternatives --set php /usr/bin/php7.2
 
 ### Code debug
 
-* [Xdebug](Xdebug.md)
+* Xdebug
 * PHPUnit
 
 ### Tests
@@ -59,8 +39,6 @@ Patterns
 # ORM-less
 
 https://matthiasnoback.nl/2018/03/ormless-a-memento-like-pattern-for-object-persistence/
-
-
 
 ### Use a specific version of PHP with PECL
 

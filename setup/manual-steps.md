@@ -54,8 +54,3 @@ interval:
   swipe: 0.8
   pinch: 0.1
 ```
-
-## PhpStorm
-
-Importer [`config/phpstorm/settings.zip`](./config/phpstorm/settings.zip) via
-*File > Manage IDE Settings > Import Settings*.

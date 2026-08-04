@@ -60,4 +60,3 @@ Voir [`manual-steps.md`](./manual-steps.md).
 | `install.sh` | Paquets apt, zsh par défaut, oh-my-zsh |
 | `configure.sh` | Starship, alias, clone des projets perso, Emote |
 | `config/zsh/aliases.zsh` | Les alias et le `PATH` (sourcé depuis `~/.zshrc`) |
-| `config/phpstorm/settings.zip` | Réglages PhpStorm à importer via *File > Manage IDE Settings > Import* |

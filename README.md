@@ -13,17 +13,16 @@ Le repo est rangé par **ce qu'on en fait**, pas par type de fichier :
 
 ## docs/
 
-Aide-mémoire. Un fichier par sujet, ou un dossier quand il y a des exemples de code à côté.
+Aide-mémoire. Un fichier par sujet, ou un dossier quand le sujet a plusieurs pages.
 
 - [Git](./docs/git.md)
 - [Docker](./docs/docker.md)
-- [PHP](./docs/php) — [Symfony](./docs/php/symfony.md), [outillage](./docs/php/tooling.md), [scripts d'exemple](./docs/php/examples)
+- [PHP](./docs/php) — [Symfony](./docs/php/symfony.md), [outillage](./docs/php/tooling.md)
 - [Unix shell / bash](./docs/unix-shell.md)
 - [Ubuntu](./docs/ubuntu.md) — astuces et raccourcis (pour *installer* Ubuntu, voir [`setup/`](./setup))
 - [Nano](./docs/nano.md)
 - [Markdown](./docs/markdown.md)
 - [TCP / UDP](./docs/tcp-udp.md)
-- [`docs/stale/`](./docs/stale) — plus maintenu, gardé au cas où
 
 ## links/
 

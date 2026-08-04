@@ -44,9 +44,18 @@ make config
 ```
 
 Ça installe starship, source [`config/zsh/aliases.zsh`](./config/zsh/aliases.zsh) depuis ton `.zshrc`
-(ce qui ajoute aussi [`bin/`](../bin) au `PATH`), clone les projets perso et installe Emote.
+(ce qui ajoute aussi [`bin/`](../bin) au `PATH`), clone les projets perso, installe Emote et pose les
+extensions Gnome de [`config/gnome-shell-extensions/`](./config/gnome-shell-extensions).
 
 Ensuite : `source ~/.zshrc`.
+
+Les extensions Gnome demandent en plus une **déconnexion / reconnexion** : sur Wayland une extension
+nouvellement ajoutée n'est pas chargée à chaud. Pour les réinstaller seules, sans repasser tout
+`make config` :
+
+```
+make gnome-extensions
+```
 
 ## 5. Le reste à la main
 
@@ -56,7 +65,9 @@ Voir [`manual-steps.md`](./manual-steps.md).
 
 | Fichier | Rôle |
 |---|---|
-| `Makefile` | Les deux entrées : `make install`, `make config` |
+| `Makefile` | Les entrées : `make install`, `make config`, `make gnome-extensions` |
 | `install.sh` | Paquets apt, zsh par défaut, oh-my-zsh |
-| `configure.sh` | Starship, alias, clone des projets perso, Emote |
+| `configure.sh` | Starship, alias, clone des projets perso, Emote, extensions Gnome |
+| `install-gnome-extensions.sh` | Lie et active les extensions de `config/gnome-shell-extensions/` |
 | `config/zsh/aliases.zsh` | Les alias et le `PATH` (sourcé depuis `~/.zshrc`) |
+| `config/gnome-shell-extensions/` | Les extensions Gnome maison, une par dossier |

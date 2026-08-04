@@ -44,3 +44,9 @@ install:
 config:
 	$(call printSection,CONFIG)
 	${SETUP_DIR}/configure.sh
+
+.PHONY: gnome-extensions
+## Install the Gnome Shell extensions (also done by 'make config')
+gnome-extensions:
+	$(call printSection,GNOME EXTENSIONS)
+	${SETUP_DIR}/install-gnome-extensions.sh

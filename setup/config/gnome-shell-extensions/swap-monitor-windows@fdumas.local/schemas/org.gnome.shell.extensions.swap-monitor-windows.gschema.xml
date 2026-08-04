@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.swap-monitor-windows"
+          path="/org/gnome/shell/extensions/swap-monitor-windows/">
+    <key name="swap-monitors" type="as">
+      <default><![CDATA[['<Super>x']]]></default>
+      <summary>Swap the windows of two screens</summary>
+      <description>
+        Move every window on the first screen to the second one and vice versa.
+      </description>
+    </key>
+    <key name="all-workspaces" type="b">
+      <default>false</default>
+      <summary>Swap windows on every workspace</summary>
+      <description>
+        When false, only windows on the active workspace are swapped. When true,
+        the swap applies to every workspace at once.
+      </description>
+    </key>
+  </schema>
+</schemalist>

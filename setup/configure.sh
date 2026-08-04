@@ -45,3 +45,8 @@ printInColor green "Done"
 printInColor blue "> Setup Emote"
 sudo snap install emote
 printInColor green "Done"
+
+# Install the Gnome Shell extensions kept in this repo
+printInColor blue "> Setup Gnome Shell extensions"
+"${SETUP_DIR}/install-gnome-extensions.sh"
+printInColor green "Done"

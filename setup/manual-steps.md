@@ -15,7 +15,15 @@ Tout ce que `make install` / `make config` ne peuvent pas faire à ta place.
 
 ## Extensions Gnome
 
-Installer le gestionnaire d'extensions (voir [la doc](https://doc.ubuntu-fr.org/extensions-gnome)) :
+Les extensions **maison** sont automatisées : elles vivent dans
+[`config/gnome-shell-extensions/`](./config/gnome-shell-extensions) et `make gnome-extensions` les
+pose. Il reste juste à se déconnecter / reconnecter. Rien à faire à la main pour celles-là.
+
+- [Swap Monitor Windows](./config/gnome-shell-extensions/swap-monitor-windows@fdumas.local/README.md)
+  — `Super + X` échange le contenu des deux écrans
+
+Le reste vient du store, donc à la main. Installer le gestionnaire d'extensions (voir
+[la doc](https://doc.ubuntu-fr.org/extensions-gnome)) :
 
 ```
 sudo apt install gnome-shell-extensions

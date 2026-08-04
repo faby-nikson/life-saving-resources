@@ -93,7 +93,7 @@ source "$SOURCE_DIR/scripts/_helper.sh"
 ```bash
 #!/bin/bash
    # ----------
-   # @author: f-dumas
+   # @author: faby-nikson
    # Description: Script examples
    # Template version: 1.0
    # ----------

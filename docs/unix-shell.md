@@ -166,11 +166,13 @@ source "$SOURCE_DIR/scripts/_helper.sh"
 
 ### Installer script
 
-Plutôt qu'un exemple recopié ici (qui divergeait), voir les vrais scripts du repo :
+Plutôt qu'un exemple recopié ici (qui divergeait), voir les vrais scripts de
+[`ubuntu-setup`](https://github.com/faby-nikson/ubuntu-setup) (repo privé) :
 
-- [`setup/install.sh`](../setup/install.sh) — liste de paquets, `apt install`, oh-my-zsh
-- [`setup/configure.sh`](../setup/configure.sh) — ajout d'un `source` dans le `.zshrc`, clones, snap
-- [`setup/Makefile`](../setup/Makefile) — comment exposer tout ça derrière `make install` / `make config`
+- `install.sh` — liste de paquets, `apt install`, oh-my-zsh
+- `configure.sh` — ajout d'un `source` dans le `.zshrc`, snap
+- `install-gnome-extensions.sh` — clone d'un repo, symlink, `gsettings` via python3
+- `Makefile` — comment exposer tout ça derrière `make install` / `make config`
 
 ### Examples of how to handle parameters
 

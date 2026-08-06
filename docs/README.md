@@ -4,7 +4,8 @@ Aide-mémoire personnels. « C'était quoi la commande / la syntaxe pour... ? »
 
 Un fichier par sujet, ou un dossier quand le sujet a plusieurs pages.
 
-Pour *monter une machine*, c'est [`setup/`](../setup). Pour des liens, c'est [`links/`](../links).
+Pour *monter une machine*, c'est [`ubuntu-setup`](https://github.com/faby-nikson/ubuntu-setup).
+Pour des liens, c'est [`links/`](../links).
 
 - [Git](./git.md)
 - [Docker](./docker.md)

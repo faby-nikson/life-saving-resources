@@ -2,7 +2,7 @@
 
 ## Setup your ubuntu
 
-See [`setup/`](../setup) in this repository.
+See [`ubuntu-setup`](https://github.com/faby-nikson/ubuntu-setup) (private repository).
 
 ## Useful Shortcuts
 

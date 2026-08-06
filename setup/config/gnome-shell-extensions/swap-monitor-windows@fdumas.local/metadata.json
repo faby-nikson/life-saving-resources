@@ -1,8 +1,0 @@
-{
-  "uuid": "swap-monitor-windows@fdumas.local",
-  "name": "Swap Monitor Windows",
-  "description": "Swap the contents of two screens with one shortcut (Super+X by default): every window on screen 1 moves to screen 2 and vice versa. Handy when screen-sharing one display and you need to move what you are showing.",
-  "shell-version": ["48", "49", "50"],
-  "settings-schema": "org.gnome.shell.extensions.swap-monitor-windows",
-  "version": 1
-}
